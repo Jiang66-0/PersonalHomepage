@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jiang Chao | Personal Job-Seeking Website</title>
+  <meta name="description" content="Jiang Chao's personal job-seeking portfolio for Data Science and related roles.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#home" aria-label="Go to homepage">
+        <span class="brand-mark">J</span>
+        <span class="brand-text">
+          <strong>Jiang Chao</strong>
+          <small>Data Science Portfolio</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section reveal" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Final Individual Project</p>
+          <h1>Hi, I'm <span>Jiang Chao</span> - a Data Science student building practical solutions through machine learning and data analysis.</h1>
+          <p class="hero-text">
+            Seeking an internship or entry-level position in Data Science and related fields, with strong interest
+            in data analysis, machine learning, reinforcement learning, and NLP.
+          </p>
+
+          <div class="tag-row">
+            <span>Python</span>
+            <span>Data Analysis</span>
+            <span>Machine Learning</span>
+            <span>Reinforcement Learning</span>
+            <span>NLP</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View Projects</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="intro-card">
+            <p class="card-label">Quick Profile</p>
+            <h2>Focused, curious, and project-driven</h2>
+            <ul>
+              <li>School / Major: Lingnan University / Data Science</li>
+              <li>Student ID: 3161453</li>
+              <li>Graduation: 2026 (Expected)</li>
+              <li>Target Role: Data Science Intern / Entry-Level Analyst</li>
+            </ul>
+          </div>
+
+          <div class="quote-card">
+            <p>"I enjoy solving practical problems using data-driven methods and continuous learning."</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>A concise introduction with clear academic direction</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card">
+            <p>
+              I am Jiang Chao, a Data Science student at Lingnan University. I am interested in data analysis,
+              machine learning, and artificial intelligence, and I continuously improve my technical skills
+              through coursework and project practice.
+            </p>
+            <p>
+              I enjoy solving practical problems with data-driven methods and I am willing to keep learning,
+              exploring new ideas, and turning theory into working project outcomes.
+            </p>
+          </article>
+
+          <article class="glass-card detail-card">
+            <div>
+              <span>Education</span>
+              <strong>Lingnan University</strong>
+              <small>Data Science - Expected Graduation 2026</small>
+            </div>
+            <div>
+              <span>Strengths</span>
+              <strong>Python programming, data preprocessing, and reliable execution</strong>
+              <small>Comfortable with both independent projects and team collaboration</small>
+            </div>
+            <div>
+              <span>Focus Areas</span>
+              <strong>Machine Learning, Reinforcement Learning, NLP, and Data Analysis</strong>
+              <small>Interested in building practical systems from data and models</small>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Skills organized to match the target role</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Python, NumPy, and basic machine learning</li>
+              <li>Reinforcement Learning with Q-Learning</li>
+              <li>NLP basics, data preprocessing, and EDA</li>
+              <li>Basic understanding of model evaluation and experimental workflow</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Business Skills</h3>
+            <ul>
+              <li>Problem understanding and structured analysis</li>
+              <li>Basic data analysis and result interpretation</li>
+              <li>Project documentation and result summary</li>
+              <li>Clear communication of technical findings</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Pandas, Scikit-learn, and Pygame</li>
+              <li>GitHub and VS Code</li>
+              <li>Notebook-based analysis workflows</li>
+              <li>Basic visualization for distribution and text analysis</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Project cards with complete problem, data, method, and outcome</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-top">
+              <p class="project-time">March 3, 2026 - Individual Project</p>
+              <h3>Q-Learning Maze Game</h3>
+            </div>
+            <div class="project-body">
+              <p><strong>Problem:</strong> Train a reinforcement learning agent to autonomously find the optimal path in a fixed 10x10 maze with walls, without prior knowledge of the layout.</p>
+              <p><strong>Data:</strong> A custom 10x10 grid maze environment with 100 discrete states, 4 possible actions, and a designed reward system for agent learning.</p>
+              <p><strong>Approach:</strong> Implemented the classic Q-Learning algorithm with an epsilon-greedy exploration strategy, using NumPy for Q-table management and Pygame for maze visualization and interactive UI.</p>
+              <p><strong>Outcome / Impact:</strong> The agent successfully learned the optimal path after 3,000 training episodes and could stably navigate from the start to the goal without collisions or infinite loops.</p>
+              <p><strong>My Contribution:</strong> Independently designed the maze environment, implemented the full Q-Learning algorithm, built the reward function, optimized the exploration rate and training parameters, and developed the visualization interface.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Jiang66-0" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#resume">Project Summary</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <p class="project-time">April 10, 2026 - Group Project</p>
+              <h3>Deep Learning for Fake News Detection: A Comparative Study of BiLSTM-Attention and TextCNN</h3>
+            </div>
+            <div class="project-body">
+              <p><strong>Problem:</strong> Address the issue of rampant fake news on social media by developing an automated fake news detection system based on deep learning for binary classification of news text.</p>
+              <p><strong>Data:</strong> A real-world dataset containing 4,749 labeled news articles with text content and classification labels, with a nearly balanced data distribution between real and fake news.</p>
+              <p><strong>Approach:</strong> Built a complete NLP pipeline including data cleaning, text normalization, tokenization, vocabulary construction, and sequence encoding, then developed and compared BiLSTM-Attention and TextCNN models with multiple hyperparameter settings.</p>
+              <p><strong>Outcome / Impact:</strong> The BiLSTM-Attention model achieved 74.61% test accuracy and 0.8203 ROC-AUC, while TextCNN performed slightly better with 75.04% accuracy. The project produced a reproducible deep learning text classification pipeline and a standardized solution for lightweight fake news detection.</p>
+              <p><strong>My Contribution:</strong> Responsible for data preprocessing and exploratory data analysis, including cleaning, text normalization, denoising, URL and symbol removal, tokenization, vocabulary construction, sequence encoding, dataset splitting, text length statistics, and distribution visualization.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Jiang66-0" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#resume">Project Summary</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="resume">
+        <div class="section-heading">
+          <p class="eyebrow">Resume / CV</p>
+          <h2>Short resume overview for quick academic and project review</h2>
+        </div>
+
+        <div class="resume-layout">
+          <article class="resume-card">
+            <h3>Education</h3>
+            <p>Lingnan University - Data Science - Student ID: 3161453 - Expected Graduation: 2026</p>
+            <h3>Profile</h3>
+            <p>Interested in data analysis, machine learning, and artificial intelligence, with project experience in reinforcement learning and NLP.</p>
+            <h3>Projects</h3>
+            <p>Q-Learning Maze Game; Deep Learning for Fake News Detection: A Comparative Study of BiLSTM-Attention and TextCNN.</p>
+            <h3>Skills</h3>
+            <p>Python, Data Analysis, Basic Machine Learning, Reinforcement Learning, NLP Basics, Data Preprocessing, Exploratory Data Analysis.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Simple and complete contact information</h2>
+        </div>
+
+        <div class="contact-layout">
+          <article class="contact-card">
+            <h3>Let's connect</h3>
+            <p>If you would like to discuss internship opportunities, projects, or academic work, feel free to contact me.</p>
+            <div class="contact-list">
+              <a href="mailto:chaojiang@ln.hk">chaojiang@ln.hk</a>
+              <a href="https://github.com/Jiang66-0" target="_blank" rel="noreferrer">GitHub Portfolio</a>
+              <a href="#home">Name: Jiang Chao</a>
+              <a href="#resume">Student ID: 3161453</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Designed as a clean and polished personal portfolio for final project submission.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
